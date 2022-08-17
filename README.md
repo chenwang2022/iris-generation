@@ -9,6 +9,7 @@ This implementation is based on Pytorch. Our environment is:
 * CUDA 11.3
 * CuDNN 8.2
 * Pytorch 1.11
+
 or:
 * Python 3.6
 * CUDA 10.1
