@@ -3,5 +3,10 @@ This is the implementation of "Generating Intra- and Inter-Class Iris Images by 
 
 <img src="https://user-images.githubusercontent.com/111242515/184875536-04cbc109-1120-4e43-a5ba-2792811bbe5d.PNG" width="700px">
 
+## Train
+
 ## Synthetic Dataset
 We have picked high-quality generated images and built a synthetic dataset, which consists of 187,717 images of 10,000 classes at 256×256 resolution. There are 10-20 images are available for each class. The classes in the synthetic dataset are completely created by our model and do not exist in the real world. You can use, redistribute, and adapt it for non-commercial purposes, as long as you (a) give appropriate credit by citing our paper, (b) indicate any changes that you've made. The download link of the synthetic dataset is https://pan.baidu.com/s/1XFou9qgXxlm5-v5S1u4K2Q?pwd=avgv
+
+##License
+Our GANs are based on the StyleGAN2 framework, refer to https://github.com/rosinality/stylegan2-pytorch
