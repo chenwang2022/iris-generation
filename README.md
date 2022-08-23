@@ -18,11 +18,11 @@ or:
 
 ## Usage
 You can train model with single GPU
-'''
+```
 CUDA_VISIBLE_DEVICES=0 python train.py DATA_PATH
 
 or multiple GPUs
-'''
+```
 python -m torch.distributed.launch --nproc_per_node=N_GPU train.py DATA_PATH
 
 ## Synthetic Dataset
